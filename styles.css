@@ -1,0 +1,44 @@
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+label, #btn {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+}
+
+#btn {
+    color: white;
+    background-color: green;
+}
+h3 {
+    margin-top: 1px;
+}
+
+form {
+    border-top: black 2px solid;
+    background-color: aqua;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: black 2px solid;
+    padding-bottom: 10px;
+}
+
+#library {
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+}
+
+h1, #library {
+    width: 100vw;
+}
