@@ -17,17 +17,6 @@ class Library {
         this.books = [];
     }
 
-    // Wasn't sure how I was going to use this markRead method
-    // markRead(checkbox, id) {
-    //     for (let i = 0; i < this.books.length; i++) {
-    //         if (Book.id == id) {
-    //             Book.read = true;
-    //             checkbox.checked = true;
-    //             checked.disabled = true;
-    //         }
-    //     } 
-    // }
-
     static removeBook(el) {
         if(el.classList.contains("remove")) {
             el.parentElement.parentElement.remove();
