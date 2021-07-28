@@ -42,3 +42,7 @@ form {
 h1, #library {
     width: 100vw;
 }
+
+tr {
+    border: solid 1px black;
+}
